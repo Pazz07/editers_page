@@ -49,6 +49,6 @@ Gracias al equipo de Editers por confiar en mi propuesta de remodelación de su 
 
 ## Copyright Y Licencia
 
-Copyright 2022-2023 [Pablo Arvizu](https://www.instagram.com/lordpablo_xd/). Código liberado bajo la [Licencia Apache](http://www.apache.org/licenses/LICENSE-2.0). Documentación liberada bajo [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+Copyright 2023 [Pablo Arvizu](https://www.instagram.com/lordpablo_xd/). Código liberado bajo la [Licencia Apache](http://www.apache.org/licenses/LICENSE-2.0). Documentación liberada bajo [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
 
  
