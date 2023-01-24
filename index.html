@@ -1,0 +1,399 @@
+<!--
+Copyright 2022 Pablo Arvizu
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Todos los archivos y clases en este proyecto incluyen el nombre del
+archivo o clase y una descripción del propósito para facilitar la
+identificación dentro de archivos de terceros. Este proyecto se proporciona
+gratuitamente para su uso educativo y de aprendizaje. Se permite la
+edición y modificación del mismo con el fin de mejorar tus habilidades
+en programación y diseño web. Sin embargo, se requiere que se mantenga
+el crédito original al creador de la página (Pablo Arvizu) y se prohíbe
+su uso comercial sin autorización previa. Además, se prohíbe el uso del
+código para reventa o distribución comercial. El objetivo de esta página
+es ayudar a jóvenes y estudiantes a mejorar sus habilidades en programación
+y diseño web, y para ello ponemos a disposición nuestra comunidad en Discord
+donde podrán recibir asesoramiento y ayuda gratuita, así como solicitar
+citas con el creador de la página para discutir sus proyectos y mejorar
+sus habilidades. Los archivos originales se encuentran almacenados en
+https://github.com/Pazz07/editers_page
+
+cabe recalcar que si alguien no respeta las condiciones mencionadas en esta
+licencia, se tomarán medidas legales según lo permitido.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> editers </title>
+        <!-- -->Favicon 
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+        <!-- Iconos de Font Awesome (versión gratuita) -->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Fuentes de Google -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- CSS del tema principal -->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"> <img src="img/editerssinslogan.png" width="140px" height="50px"></a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Nuestro equipo</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre nosotros</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        
+        <!-- Tope 1 -->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Imagen avatar -->
+                <img class="masthead-avatar mb-5" src="img/editersLOGO.png" alt="..." />
+                <!-- Divisor de iconos -->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Subtítulo de avatar -->
+                <p class="masthead-subheading font-weight-light mb-0">Artistas gráficas - Diseñadoras web - Ilustradoras</p>
+            </div>
+        </header>
+        <!-- Sección de Portafolio -->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Título de la sección del portafolio -->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nuestro equipo</h2>
+                <!-- Divisor de iconos -->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Elementos de la cuadrícula de la cartera -->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/avatar0.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/avatar0.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/avatar0.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/avatar0.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de quienes somos -->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- título de sección-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Sobre nosotros</h2>
+                <!-- Divisor de iconos -->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Acerca del contenido de la sección -->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Somos un equipo de estudiantes que quiere ayudar a la gente a comunicarse atreves de la comunicación visual y probar que el diseño gráfico también es una buena forma de sobresalir y en forma de proyecto optamos por hacer una página web con los conocimientos que nos otorgó la escuela “CECyTEC Jalisco Plantel Tesistán”.</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de contacto -->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Encabezado de la sección de contacto -->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactanos</h2>
+                <!-- Divisor de iconos -->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Formulario de la sección de contacto -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * Formulario de contacto * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- Este formulario está preintegrado con SB Forms.-->
+                        <!-- Para que este formulario sea funcional, regístrese en-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- para obtener un token API!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Nombre -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Nombre completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre.</div>
+                            </div>
+                            <!-- Dirección de correo electrónico -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Correo electrónico</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un email.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">El correo no es válido.</div>
+                            </div>
+                            <!-- Número de teléfono -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Número de teléfono</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un número de teléfono.</div>
+                            </div>
+                            <!-- Mensaje -->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Mensaje</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje.</div>
+                            </div>
+                            <!-- Enviar mensaje de éxito-->
+                            <!---->
+                            <!-- Esto es lo que verán sus usuarios cuando el formulario-->
+                            <!-- ha enviado con éxito-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">¡Envío de formulario exitoso!</div>
+                                    Para activar este formulario, regístrate en
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Enviar mensaje de error -->
+                            <!---->
+                            <!-- Esto es lo que verán sus usuarios cuando haya -->
+                            <!-- un error al enviar el formulario -->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar el mensaje!</div></div>
+                            <!-- Botón de enviar -->
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Localización -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Localización</h4>
+                        <p class="lead mb-0">
+                            Camino Tesistán-La Magdalena 500, Tesistan, 45100 Zapopan, Jal.
+                        </p>
+                    </div>
+                    <!-- Iconos sociales -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Nuestras Redes</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100087941815411" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/editers04/" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://api.whatsapp.com/send?phone=3323342237" target="_blank"><i class="fab fa-fw fa-whatsapp" ></i></a>
+                    </div>
+                    <!-- Sobre la pagina-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Pagina</h4>
+                        <p class="lead mb-0">
+                            Creada por
+                            <a href="https://www.instagram.com/lordpablo_xd/" target="_blank">PabloArvizu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Sección de Copyright-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Editers 2023</small></div>
+        </div>
+        <!-- Modelos de portafolio -->
+        <!-- Modelo de protafolio 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portafolio Modal - Título -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Estefani</h2>
+                                    <!-- Divisor de iconos -->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Modelo de protafolio - Imagen -->
+                                    <img class="img-fluid rounded mb-5" src="img/portfolio/avatar0.png" alt="..." />
+                                    <!-- Modelo de protafolio - Texto-->
+                                    <p class="mb-4">Hey hola! Qué tal? Mi nombre es Estefani Yuliana Curiel Martínez un gusto en conocerle! He decidido estudiar diseño gráfico ya que planeo hacer bocetos para un videojuego a futuro!</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Cerrar ventana
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modelo de protafolio 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portafolio Modal - Título -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Susan</h2>
+                                    <!-- Divisor de iconos -->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Modelo de protafolio - Imagen -->
+                                    <img class="img-fluid rounded mb-5" src="img/portfolio/avatar0.png" alt="..." />
+                                    <!-- Modelo de protafolio - Texto-->
+                                    <p class="mb-4">Hola me llamo Susana Itzel Jimenéz Ortiz y estoy a su servicio me gusta dibujar y editar por eso decidí estudiar Diseño gráfico para poder dedicarme en ello y trabajar en algo que me gusta.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Cerrar ventana
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modelo de protafolio 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portafolio Modal - Título -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">VERO</h2>
+                                    <!-- Divisor de iconos -->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Modelo de protafolio - Imagen -->
+                                    <img class="img-fluid rounded mb-5" src="img/portfolio/avatar0.png" alt="..." />
+                                    <!-- Modelo de protafolio - Texto-->
+                                    <p class="mb-4">Hola! Mi nombre es Verónica Yazmin Andrade De La Rosa, estudio diseño gráfico y he estudiado esto durante un tiempo, me ha gustado la manera de trabajo tanto en físico como en digital. Es un buen plan el estudiar diseño ya que desarrollamos técnicas de manejar la computación, en fin.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Cerrar ventana
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modelo de protafolio 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portafolio Modal - Título -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ashli</h2>
+                                    <!-- Divisor de iconos -->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Modelo de protafolio - Imagen -->
+                                    <img class="img-fluid rounded mb-5" src="img/portfolio/avatar0.png" alt="..." />
+                                    <!-- Modelo de protafolio - Texto-->
+                                    <p class="mb-4">A mi me gusta escribir historias y dibujarlas por ello estudio diseño.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Cerrar ventana
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Tema central JS -->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activa tu formulario en https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
