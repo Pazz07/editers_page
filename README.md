@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="#" width="760" height="300">
+    <img src="https://github.com/Pazz07/editers_page/blob/main/img/editerssinslogan.png" width="760" height="300">
   </a>
 </p>
 
@@ -25,7 +25,7 @@ Este contenido es proporcionado gratuitamente para su uso educativo y de aprendi
 
 ## Como Descargar o clonar
 
-[Descargar](#)
+[Descargar](https://github.com/Pazz07/editers_page/archive/refs/heads/main.zip)
 
 1. Para clonar el repositorio "editers_page" de mi usuario "Pazz07" en Github, puedes seguir estos pasos:
 
